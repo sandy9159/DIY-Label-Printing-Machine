@@ -5,11 +5,11 @@
 
 Hello friends 
 In this post I made a CNC machine which draw text on Masking tape in this way we can create cool labels to stick.
-We can Create cool labels for our workshop, office or home.
+We can create cool labels for our workshop, office or home.
 
 Here I have created G-code of text in android phone itself using text to CNC android app.
-and I have used GRBL controller android app to send G code to machine 
-laptop is not at all needed to print label in this way is handy, compact & portable. you can print label anywhere any time just need to provide 12V DC power.
+And I have used GRBL controller android app to send G code to machine 
+Laptop is not at all needed to print label in this way is handy, compact & portable. You can print label anywhere any time just need to provide 12V DC power.
 I need to replace all Z1 command to M3 S255 and Z0 to M5 in G-code in text editor in order to run servo up and down.
 
 # COMPONENT REQUIRED
@@ -21,9 +21,9 @@ I need to replace all Z1 command to M3 S255 and Z0 to M5 in G-code in text edito
 5. Nema 17 Stepper motors
 6. Timing pulley
 7. Timing belt
-8. linear rails
+8. Linear rails
 9. 3D printed parts 
-10. Some hardwares
+10. Some hardware
 
 
 ![image](https://user-images.githubusercontent.com/19898602/185774503-977b8654-0069-41df-bad8-9707fc8d942e.png)
@@ -42,8 +42,8 @@ Two stepper motors have to be mount on this 3D printed parts facing in opposite 
 ![image](https://user-images.githubusercontent.com/19898602/185774640-380a5637-dd06-4146-b4d3-d58d702df963.png)
 
 
-Then I used my home CNC router to cut the 6mm acrylic sheet, This sheet will became base of X aixis of our machine.
-we'll latter mount X axis onto this 
+Then I used my home CNC router to cut the 6mm acrylic sheet, This sheet will became base of X axis of our machine.
+We’ll latter mount X axis onto this 
 
 Whenever you try to machine Acrylic sheet be sure that acrylic must be cast acrylic not extruded acrylic.
 
@@ -51,13 +51,13 @@ Whenever you try to machine Acrylic sheet be sure that acrylic must be cast acry
 
 Then I used 9mm Linear rails to make X axis of the machine.
 
-this linear rails are very much precise and heavy duty 
+This linear rails are very much precise and heavy duty 
 
 I used 2 8mm pillow bearing to hold the T8 lead screw. 
 
-One end of lead screw is connnected with timming pulley and this 8mm lead screw is then connected with shaft of stepper motor.
+One end of lead screw is connected with timing pulley and this 8mm lead screw is then connected with shaft of stepper motor.
 
-So that when stepper motor rotates then 8mm Lead screw will rotate through timming belt. and move linear rail forward and reverse.
+So that when stepper motor rotates then 8mm Lead screw will rotate through timing belt. And move linear rail forward and reverse.
 
 
 ![image](https://user-images.githubusercontent.com/19898602/185774727-fa4f615e-f16f-4610-905e-51005b7441e3.png)
@@ -67,11 +67,11 @@ After that I have design a pen holder for X-axis this 3D printed part will mount
 
 8mm lead Screw.
 
-then after I placed 2 3mm smooth rod for up and down moment of pen.
+Then after I placed 2 3mm smooth rod for up and down moment of pen.
 
-For up and down movement of pen I have used on Micro servo motor. this types of stepper motors are very small in size and have enough power 
+For up and down movement of pen I have used on Micro servo motor. This types of stepper motors are very small in size and have enough power 
 
-for such works.
+For such works.
 
 
 
@@ -81,11 +81,11 @@ for such works.
 
 I have used my [Multipurpose custom PCB](https://oshwlab.com/sharmaz747/multipurpose-pcb_copy_copy_copy) in this project.
 
-If you don't know about my multipurpose PCB then definetly check out my [Multipurpose custom PCB](https://oshwlab.com/sharmaz747/multipurpose-pcb_copy_copy_copy)
+If you don't know about my multipurpose PCB then definitely check out my [Multipurpose custom PCB](https://oshwlab.com/sharmaz747/multipurpose-pcb_copy_copy_copy)
 
-this PCB can be used for many jobs It can able to connct 11 components at a time to the PCB. 
+this PCB can be used for many jobs It can able to connect 11 components at a time to the PCB. 
 
-We can Run 
+We can run 
 
 2nos stepper motor
 
@@ -95,7 +95,7 @@ We can Run
 
 at a time 
 
-and After designing PCB in my favorite PCB editor tools. Now it’s time to order PCB
+and After designing PCB in my favourite PCB editor tools. Now it’s time to order PCB
 
 I trust on [JLCPCB](https://jlcpcb.com/IAT ) for ordering PCB they have very fast shipping service and low rates for quality PCB.
 
@@ -104,9 +104,9 @@ If you are new customer for JLCPCB You will also get welcome coupons from [JLCPC
 
 ![image](https://user-images.githubusercontent.com/19898602/185774980-a90d76c3-e7c0-4ebc-8b69-779d435e431b.png)
 
-Wiring is very very simple and neat and clead thanks to the PCB.
+Wiring is very very simple and neat and clear thanks to the PCB.
 
-Just plug the Stepper motor wires , servo motor wires and power supply to PCB
+Just plug the Stepper motor wires, servo motor wires and power supply to PCB
 
 That's it our wiring is complete. 
 
@@ -118,17 +118,17 @@ That's it our wiring is complete.
 We are printing Label on paper tape so we need something to hold the paper tape. so I printed this part to hold the paper tape.
 
 
-I designe it in such way that it continue to maintain pressure on paper tape from instie due to its designe. 
+I design it in such way that it continue to maintain pressure on paper tape from inside due to its design. 
 
-so it will be sure that paper tape not get loose while in operation. 
+So it will be sure that paper tape not get loose while in operation. 
 
 ![image](https://user-images.githubusercontent.com/19898602/185775126-183d75f8-25b1-477d-8a5b-58458d47d97e.png)
 
-So now we finnaly placing the paper tape onto the shaft of stepper motor 
+So now we finally placing the paper tape onto the shaft of stepper motor 
 
-paper tape must be in alinge with the tip of pen above it.
+Paper tape must be in aligned with the tip of pen above it.
 
-in this way out constructoin of paper tape label printing machine is completed.
+in this way out construction of paper tape label printing machine is completed.
 
 ![image](https://user-images.githubusercontent.com/19898602/185775185-65de3e14-7d69-4f0e-b1dd-08e811ec6b63.png)
 ![image](https://user-images.githubusercontent.com/19898602/185775194-cf7108c8-7b5c-444a-8e6b-1b8d6e39ff09.png)
@@ -146,6 +146,8 @@ https://play.google.com/store/apps/details?id=in.co.gorest.grblcontroller&hl=en_
 
 
 ![MVI_0001_8](https://user-images.githubusercontent.com/19898602/185775287-492abc69-5a35-4389-a524-83e72f01c600.gif)
+
+
 
 
 
